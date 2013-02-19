@@ -5,7 +5,6 @@
 	<groupId>hunwardsen.com</groupId>
 	<artifactId>MavenWebApp</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>MavenWebApp</name>
 	<url>http://hunwardsen.com</url>
 
@@ -41,4 +40,10 @@
 		</plugins>
 	</build>
 
+	<parent>
+		<groupId>com.hunwardsen</groupId>
+		<artifactId>MavenMultiModule</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../../MavenMultiModule/MavenMultiModule</relativePath>
+	</parent>
 </project>
