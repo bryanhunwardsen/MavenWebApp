@@ -8,8 +8,16 @@
 		<servlet-name>simple</servlet-name>
 		<servlet-class>com.hunwardsen.maven.webapp.SimpleServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>weather</servlet-name>
+		<servlet-class>com.hunwardsen.maven.webapp.WeatherServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>simple</servlet-name>
 		<url-pattern>/simple</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>weather</servlet-name>
+		<url-pattern>/weather</url-pattern>
 	</servlet-mapping>
 </web-app>
